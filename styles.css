@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #536493;
+  }
+  .container {
+    width: 80vmin;
+    padding: 50px 30px;
+    background-color: #FFF1DB;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+  .container h1{
+    display: flex;
+    color: #2E236C;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .stats {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .stats span {
+    font-weight: 600;
+    color: #e81c4e;
+  }
+  #quote {
+    text-align: justify;
+    margin: 30px 0 50px 0;
+    font-size: 18px;
+  }
+  textarea {
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+  button {
+    float: right;
+    margin-top: 20px;
+    background-color: #3066f6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .result {
+    margin-top: 40px;
+    display: none;
+  }
+  .result h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .wrapper span {
+    font-weight: 600;
+  }
+  .success {
+    color: #36c140;
+  }
+  .fail {
+    color: #e81c4e;
+  }
